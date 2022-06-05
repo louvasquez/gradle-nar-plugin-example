@@ -1,4 +1,4 @@
-This is an example using a recent update to the (sponiro) gradle-nar-plugin (https://github.com/lhotari/gradle-nar-plugin).
+This is an example using lhotari's recent update to the (sponiro) gradle-nar-plugin (https://github.com/lhotari/gradle-nar-plugin).
 
 Borrowed example from sponiro that didn't work for me originally. Also borrowed content of custom processor. So...many
 thanks to all who came before.
@@ -24,12 +24,7 @@ thanks to all who came before.
 
 ## pre-requisite
 
-Must already have installed lhotari(see above) nar plugin (I think...at least I did)
-```
-gradle clone https://github.com/lhotari/gradle-nar-plugin.git
-cd gradle-nar-plugin
-./gradlew build
-```
+access to plugin via maven dependency
 
 ## Notes
 
