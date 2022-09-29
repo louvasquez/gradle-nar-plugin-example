@@ -22,6 +22,11 @@ thanks to all who came before.
 - add class name to meta info (src/main/resources/META-INF/services/org.apache.nifi.processor.Processor)
 - build nar (agian...as above)
 
+### modifying nar properties
+
+Edit `gradle.properties` with fields like `version=1.0.12`. 
+See "manifest" values in plugin `https://github.com/lhotari/gradle-nar-plugin`
+
 ## pre-requisite
 
 access to plugin via maven dependency
